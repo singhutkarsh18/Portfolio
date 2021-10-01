@@ -28,7 +28,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:rgb(38, 36, 36);
+    background-color:rgb(29, 28, 28);
     color: white;
     padding: 1rem;
 
@@ -68,7 +68,7 @@
 .Myskills{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
    
 }
