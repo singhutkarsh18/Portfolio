@@ -5,14 +5,15 @@
     
 }
 .body{
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
     
 }
 .About{
     /* display: none; */
-    background-image: url(img/coding2.jpg);
+    background-image: url(img/coding3.jpg
+    );
     height: 100vh;
     margin-bottom: 5rem;
     background-size: 100%;
@@ -29,11 +30,10 @@
     justify-content: center;
     background-color:rgb(38, 36, 36);
     color: white;
+    padding: 1rem;
 
 }
 .links ul{
-    margin: 0px;
-    padding: 0px;
     display: flex;
 }
 .links li{
@@ -43,14 +43,16 @@
     text-decoration: none;
     color: white;
     display: block;
-    padding: 1rem;
+    padding: 1.2rem;
     font-size: 1.2rem;
     border-radius: 20%;
     transition: all 0.5s ease;
+    padding: 1rem 3rem;
 }   
 .links li:hover{
     background-color: grey;
     transition: all 0.5s ease;
+    border-radius: 15%;
 }
 .links li:active{
     background-color: grey;
@@ -81,4 +83,30 @@
 .SkillsHead{
     text-align: center;
 
+}
+.contacts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(29, 28, 28);
+    padding: 0.8rem;
+}
+.contacts .fab{
+    display:inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding: 1.2rem 4rem;
+}
+.contacts .fab:hover{
+    display:inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    color: grey;
+    font-size: 45px;
+    transition: all 0.5s ease;
 }
